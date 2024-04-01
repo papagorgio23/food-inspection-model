@@ -39,7 +39,7 @@ categories = [
 @st.cache_data()
 def load_models():
     # load best saved model
-    best_model = joblib.load("models/model.pkl")
+    best_model = joblib.load("./models/model.pkl")
     return best_model
 
 
